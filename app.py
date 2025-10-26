@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request
 #I wrote this comment from backend branch
 app = Flask(__name__)
-
+#I wrote this comment from frontend branch
 @app.get("/health")
 def health():
     return jsonify(status="ok"), 200
